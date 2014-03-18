@@ -1,0 +1,82 @@
+<DOCYTIPE>
+<html>
+<head>
+
+<form>
+
+<fieldset> <legend>Datos Personales...</legend>
+ <font color="red">
+
+Nombre: <input type="text" name="nombre">
+<p>
+Apellido Paterno: <input type="text" name="apellido"> 
+<p>
+Apellido 	Materno: <input type="text" name="apellido">
+</form>
+
+<p>
+
+Fecha De Nacimiento: <input type="date" name="fecha">   
+<p> 
+<font color="black"> 
+Sexo.....
+   </font> 
+
+<p>
+<input type="radio" name="sexo" value="Masculino">Masculino 
+<p>
+<input type="radio" name="sexo" value="Femenino">Femenino
+ <p>
+ 
+ 
+Foto: <input type="text" name="usrname"><br>
+<input type="submit" value="Subir">
+ </fieldset>
+   </font> 
+ 
+</form>
+<fieldset> <legend>Direccion...</legend>
+<font color="red"> 
+
+Domicilio: <input type="text" name="domicilio">
+<p>
+Colonia: <input type="text" name="colonia"> 
+<p>
+Telefono: <input type="text" name="telefono">
+   </font> 
+
+ </fieldset>
+
+
+<fieldset> <legend>Loagin...</legend>
+<font color="red"> 
+
+Codigo: <input type="text" name="codigo">
+<p>
+Password: <input type="text" name="password"> 
+<p>
+   </font> 
+
+ </fieldset>
+ 
+ 
+ <fieldset> <legend>Interes en...</legend>
+ <font color="red"> 
+
+<input type="radio" name="interes" value="Deportes">Deportes 
+<p>
+<input type="radio" name="interes" value="Ciencia">Ciencia
+ <p>
+<input type="radio" name="interes" value="Educacion">Educacion
+<p>
+<input type="radio" name="interes" value="Musica">Musica
+<p>
+<input type="radio" name="interes" value="Otro">Otro
+ </fieldset>
+   </font> 
+
+ <button type="button">Guardar</button>  <button type="button">Cancelar</button>
+
+</form>
+   </font> 
+</body>
